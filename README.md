@@ -15,7 +15,7 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
 
-Ensure you have Python 3.8 or higher installed on your system.
+Ensure you have Python 3.11
 
 ### 2. Create and Activate Virtual Environment
 
@@ -38,6 +38,13 @@ Activate the virtual environment:
   ```bash
   source venv/bin/activate
   ```
+#### With conda
+
+```bash
+conda create -n llm_etl python=3.11
+conda activate llm_etl
+```
+
 
 ### 3. Install Requirements
 
@@ -52,7 +59,7 @@ pip install -r requirements.txt
 In the project folder, create a file named `.env` using the `env.example` file.
 
 ```bash
-pip install -r requirements.txt
+cp env.example .env
 ```
 
 ### 5. Run ETL Process

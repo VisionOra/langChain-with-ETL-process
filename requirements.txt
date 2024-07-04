@@ -8,3 +8,4 @@ beautifulsoup4
 langgraph
 faiss-cpu
 selenium
+webdriver-manager==4.0.1
