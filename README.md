@@ -1,6 +1,12 @@
-# Project README
+# Get Answers from you Database
 
-## Project Overview
+
+## Architecture
+
+![Image](attachments/ETL_and_LLM.drawio.png)
+
+
+## Overview
 
 This project is designed to perform an ETL (Extract, Transform, Load) process, loading data from CSV files into a database, scraping user profile data from LinkedIn using RapidAPI, and obtaining broker data from BrokerCheck. Additionally, it includes a Jupyter Notebook bot for querying the database based on the ingested data.
 
