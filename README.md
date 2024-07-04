@@ -1,5 +1,9 @@
 # Get Answers from you Database
 
+Main Files:
+1. ETL proccess use this: ETL_main.py
+2. LLM : bot.ipynb
+
 
 ## Architecture
 
