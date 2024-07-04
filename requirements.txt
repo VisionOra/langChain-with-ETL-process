@@ -1,0 +1,10 @@
+python-dotenv
+langchain
+langchain_openai
+langchain_community
+sqlalchemy
+pandas
+beautifulsoup4
+langgraph
+faiss-cpu
+selenium
